@@ -155,15 +155,16 @@
     </footer>
     
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
         function papaboole() {
             var station1 = parseInt(document.getElementById('station1').value);
 
             var station2 = parseInt(document.getElementById('station2').value);
 
-            if (station1 == 1 || station2 == 1){
-                name1 = 
-            }
+            if (station1 == NaN || station2 == NaN){
+                        window.alert('You are stoopid')
+                    }
 
             var name1 = document.getElementById('station1').text;
 
@@ -174,7 +175,7 @@
             let cost = 20 + dif * 5;
 
             document.getElementById('thelbjway').textContent = `The fare from ${name1} to ${name2} is Php ${cost}.`;
-        }
+                }
         
         function leboole() {
             var station1 = parseInt(document.getElementById('station1').value);
