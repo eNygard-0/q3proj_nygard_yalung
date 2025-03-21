@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manila Train Fare Guide</title>
+
+    <link rel="icon" type="image/x-icon" href="lgoo.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dokdo&family=Faustina:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Lexend;
+        }
+
+        .thing {
+            height: 75%;
+        }
+
+        #thelbjway {
+            border: 1px solid #ddd;
+            padding: 20px;
+            background-color: #f9f9f9;
+            margin-top: 20px;
+        }
+
+        
+    </style>
+</head>
+<body class="m-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="logow.png" height="40vh"></a>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="schedule.html" class="nav-link">Train Schedule</a></li>
+                    <li class="nav-item"><a href="help.html" class="nav-link">Help</a></li>
+                </ul>
+            </div>
+            <div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <br><br><br>    
+
+    <div mx-5>
+        <h1 class="text-center">Feedback Form</h1>
+            <form class="mx-5">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email">
+                </div>
+
+                <div class="mb-3">
+                    <label for="feedback" class="form-label">Feedback</label>
+                    <textarea class="form-control" id="feedback" name="feedback" rows="4" required placeholder="Enter your feedback"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+    </div>
+
+    <br><br><br>
+
+    <div class="text-center">
+        <h1>Contact Us</h1>
+        <p>Call us at <a href="tel:0253185762">(02) 5318-5762</a> or email us at <a href="mailto:feedback@lrmc.com.ph">feedback@lrmc.com.ph</a></p>
+        <p>Our Adress: Engineering Building, LRTA Compound, Andrews Avenue, Pasay, Metro Manila 1300, Philippines</p>
+    </div>
+
+    <br><br><br>
+
+    <footer class="bg-dark text-secondary text-center pt-5 pb-1">
+        <div class="container">
+            <p>&copy; 2025 Nygard and Yalung, 9 Emerald</p>
+            <p>Source: <a href="https://www.metrolinemap.com/metro/manila/" target="_blank" class="text-secondary">Metro Line Map</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
